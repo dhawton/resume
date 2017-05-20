@@ -15,7 +15,7 @@ export default class Profile extends React.Component {
           <div className='divider' />
           <ul className='social'>
             <li><a href='https://www.facebook.com/danielhawton'><i className='fa fa-2x fa-facebook-official' /></a></li>
-            <li><a href='https://www.github.com/dhawotn'><i className='fa fa-2x fa-github' /></a></li>
+            <li><a href='https://www.github.com/dhawton'><i className='fa fa-2x fa-github' /></a></li>
             <li><a href='https://www.bitbucket.com/dhawton'><i className='fa fa-2x fa-bitbucket' /></a></li>
           </ul>
         </div>
