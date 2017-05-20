@@ -1,0 +1,23 @@
+@import '../../styles/_box.scss';
+@import '../../styles/_rbheader.scss';
+
+.resumeBox {
+  @extend %box;
+  flex-basis: 65%;
+  line-height: 1.5em;
+
+  .divider {
+    border-color: #aaa;
+    padding: 0;
+  }
+
+  h2.rbheader {
+    @extend %rbheader;
+  }
+
+  section {
+    &:not(:first-child) {
+      padding-top: 20px;
+    }
+  }
+}

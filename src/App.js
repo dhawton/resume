@@ -1,21 +1,20 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+import Profile from './Components/Profile/Profile'
+import ResumeBox from './Components/ResumeBox/ResumeBox'
+
+import './App.scss'
+
+const App = (props) => (
+  <div className='resume'>
+    <Profile resumeJSON={props.resumeJSON} />
+    <ResumeBox resumeJSON={props.resumeJSON} />
+  </div>
+)
+
+App.propTypes = {
+  resumeJSON: PropTypes.object.isRequired
 }
 
-export default App;
+export default App

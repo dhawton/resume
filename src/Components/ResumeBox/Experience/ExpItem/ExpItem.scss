@@ -1,0 +1,17 @@
+.expItem {
+  h3 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0;
+    color: blue;
+    span {
+      color: #000;
+    }
+  }
+
+  p { margin: 0; }
+
+  p.summary {
+    padding-top: 10px;
+  }
+}
