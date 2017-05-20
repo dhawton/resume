@@ -8,7 +8,7 @@ const jsondata = {
       'website': 'https://www.airstats.org',
       'startDate': '4/30/2017',
       'endDate': '',
-      'summary': 'Utilizing MariaDB, proprietary data formats parsers, AWS S3 data storage, Laravel-based backend API, and a ReactJS with Redux front end, create a website that tracks, logs, archives flights and creates statistics for flights conducted on the VATSIM network by members using Microsoft Flight Simulator, X-Plane and Lockheed Martin\'s Prepar3D.'
+      'summary': 'Utilizing Git, MariaDB, proprietary data formats parsers, AWS S3 data storage, Laravel-based backend API, and a ReactJS with Redux front end, create and maintain a website that tracks, logs, archives flights and creates statistics for flights conducted on the Virtual Air Traffic Simulation (VATSIM) network by members using Microsoft Flight Simulator, X-Plane and Lockheed Martin\'s Prepar3D.'
     },
     {
       'company': 'Patriot\'s Party of Alaska',
@@ -17,7 +17,7 @@ const jsondata = {
       'website': 'https://www.alaskapatriots.org',
       'startDate': '12/21/2016',
       'endDate': '',
-      'summary': 'Utilizing Laravel, MariaDB, Bootstrap and jQuery, build and maintain the website for the Patriot\'s Party of Alaska, the Alaska affiliate of the Veterans Party of America.  Utilizing a CentOS droplet at Digital Ocean, maintain security and monitor and maintain email services, data services, and ensure continuous operation.  As Member at Large, provide representation for the northern half of Alaska for the party.'
+      'summary': 'Utilizing Git, Laravel, MariaDB, Bootstrap and jQuery, build and maintain the website for the Patriot\'s Party of Alaska political party, the Alaska affiliate of the Veterans Party of America.  Utilizing a CentOS droplet at Digital Ocean, maintain security and monitor and maintain email services, data services, and ensure continuous operation.  As Member at Large, provide representation for the northern half of Alaska for the party.'
     },
     {
       'company': 'AirCharts',
@@ -26,16 +26,16 @@ const jsondata = {
       'website': 'https://www.aircharts.org',
       'startDate': '7/1/2011',
       'endDate': '',
-      'summary': 'Utilizing MariaDB, AWS S3 data storage, and Laravel with Bootstrap and jQuery, create a series of spiders that crawl the web indexing links for aviation charts for flight simulation purposes and presented through the website and API.  A separate interface utilizing ReactJS and the public is available that is used for embedded devices.'
+      'summary': 'Utilizing Git, MariaDB, AWS S3 data storage, and Laravel with Bootstrap and jQuery, create a series of spiders that crawl the web indexing links for aviation charts used for flight simulation purposes that are presented through the website, mobile interface (Electronic Chart Reader [ECR]) and API used by dozens of other virtual flight simulation related groups.  Created and actively maintain separate interface utilizing ReactJS and the public is available that is used for embedded devices and implementations (ECR).'
     },
     {
-      'company': 'VATSIM Network, USA Division',
+      'company': 'Virtual Air Traffic Simulation (VATSIM) Network, USA Division',
       'position': 'Data Services Manager',
       'location': '',
       'website': 'https://www.vatusa.net',
       'startDate': '1/16/2015',
       'endDate': '',
-      'summary': 'Manage and develop IT systems including email, MariaDB and the website.  Utilizing Laravel, Bootstrap and jQuery, developed and maintain a website used by over 18,000 active Virtual Air Traffic Simulation (VATISM) Network users and maintain an API that allows integration and provides Single Sign-On authentication services with the 22 sub-divisions.'
+      'summary': 'Manage and develop IT systems including email, MariaDB and the website.  Utilizing Laravel, Bootstrap and jQuery, developed and maintain a website used by over 18,000 active VATISM Network users and maintain an API that allows integration and provides Single Sign-On authentication services with the 22 sub-divisions within the USA Division.'
     },
     {
       'company': 'Department of Transportation, Federal Aviation Administration',
