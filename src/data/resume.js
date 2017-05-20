@@ -119,6 +119,38 @@ const jsondata = {
     'CompTIA A+',
     'CompTIA Network+',
     'VMWare Certified Associate - Data Center Virtualization'
+  ],
+  'projects': [
+    {
+      'name': 'Aircharts',
+      'image': './projects/aircharts.png',
+      'url': 'https://www.aircharts.org',
+      'src': 'https://www.bitbucket.com/dhawton/aircharts3'
+    },
+    {
+      'name': 'Aircharts.ECR',
+      'image': '/projects/aircharts.ecr.png',
+      'url': 'https://www.aircharts.org/ecr',
+      'src': 'https://bitbucket.org/dhawton/aircharts.ecr'
+    },
+    {
+      'name': 'AWIDS',
+      'image': '/projects/AWIDS.png',
+      'url': 'https://www.github.com/dhawton/awids',
+      'src': 'https://www.github.com/dhawton/awids'
+    },
+    {
+      'name': 'VATUSA',
+      'image': '/projects/vatusa.png',
+      'url': 'https://www.vatusa.net',
+      'src': ''
+    },
+    {
+      'name': 'Resume',
+      'image': '/projects/resume.png',
+      'url': 'https://www.danielhawton.com',
+      'src': 'https://www.github.com/dhawton/resume'
+    }
   ]
 }
 

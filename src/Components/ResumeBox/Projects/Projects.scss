@@ -1,0 +1,31 @@
+.projectBox {
+  display: flex;
+  flex-wrap: wrap;
+
+  .projbox {
+    width: 300px;
+    text-align: center;
+    padding-right: 35px;
+    padding-bottom: 15px;
+
+    img {
+      width: 300px;
+      position: relative;
+    }
+    .projdetail {
+      align-items: flex-end;
+      p { margin: 0; padding: 0; }
+
+      h2 {
+        font-weight: 300;
+        font-size: 20px;
+        margin: 0;
+      }
+
+      &:hover {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+}
