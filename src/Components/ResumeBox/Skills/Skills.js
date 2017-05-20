@@ -9,7 +9,7 @@ export default class Skills extends React.Component {
         <div className='divider' />
         <ul>
           {this.props.skillsData.map((skill, k) => (
-            <li><span className='skill' key={k}>{skill}</span></li>
+            <li key={k}><span className='skill'>{skill}</span></li>
           ))}
         </ul>
       </section>
