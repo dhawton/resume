@@ -140,6 +140,12 @@ const jsondata = {
       'src': 'https://www.github.com/dhawton/awids'
     },
     {
+      'name': 'FrozenLens',
+      'image': '/projects/frozenlens.png',
+      'url': 'http://www.frozenlens.org',
+      'src': 'https://www.bitbucket.com/dhawton/frozenlens'
+    },
+    {
       'name': 'VATUSA',
       'image': '/projects/vatusa.png',
       'url': 'https://www.vatusa.net',
