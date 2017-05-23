@@ -10,7 +10,6 @@ import Skills from './Skills/Skills'
 
 export default class ResumeBox extends React.Component {
   render () {
-    console.dir(this.props.resumeJSON)
     return (
       <div className='resumeBox'>
         <About aboutData={this.props.resumeJSON.about} />
