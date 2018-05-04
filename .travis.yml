@@ -13,7 +13,7 @@ deploy:
     secure: e82wIBvKV2Wy9M847B1fKxYpyEhTVtyD/ig8m4U++4wkc5+7ckywIkjwx5Bq5ZLWaJGr9tpwJFRRcrIgEAmc+eqTI9wWAbXzC4FA5HFN+mw8LRhbMTdbG9JqhA+zIs5pOvkrPkS+2fVA8v8q5ZUMSKYXfh2ov7hq9J1c8TwpBcRnSsjIzXYpmCcQ1/plvri5YVUC6zV9x2ZdvliIZhGDTNbtVDfnfkUMSNJG8V0cktAb3yNtO+Bs2yT3SnrJhkWE1KcZmNT/09y3aDDOOHvXOurZKIwiLj3FI3GoUfJAKdTmG2TUaXUDBLAbubRdPFgre7Nuvs42X1qUNzxgt+vWeQxgu4WSLgw91H7YZGqMx09oxAPCytveq7TFHwqffKwcfKGfAMIyDt8FYPVNqweLaiXEqYu6qDLP7alVx3FMUTQ7nMWPSgVaAwwV/zIv+OtAaILsfESEr4Ba17E8pmWGFFgt5wr86xSJJKOl78n1gszA+UleJ+KhKZNHccQYwSAyls1T2rGZzDUesu0ENK9RtXKFCePZv6Hn85q9Qr4XWzZ+JtaDto8Z03o6g2RnvKWklxKSDg3keVArr0+0cOdvhBrjqXHRhXsCfEMzMNoABa4znGZhUc4+QQi35NXs9pHlnd6YENZVE47Oe6bN5AMyAj1g/Nqb3BDW3c2bNOWmZvg=
   region: us-west-2
   bucket: danielhawton.info
-  local-dir: public
+  local-dir: build
   acl: public_read
   skip_cleanup: true
   on:
