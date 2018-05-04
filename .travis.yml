@@ -1,4 +1,4 @@
-language: "node_js"
+language: node_js
 node_js:
 - 9
 sudo: required
@@ -6,13 +6,15 @@ script:
 - npm install
 - npm run build
 deploy:
-  on:
-    branch: master
   provider: s3
-  access_key_id: $AWS_ACCESS_KEY_ID
-  secret_access_key: $AWS_SECRET_ACCESS_KEY
-  region: $AWS_DEFAULT_REGION
-  bucket: $AWS_BUCKET
-  skip_cleanup: true
-  local_dir: public
+  access_key_id:
+    secure: A1hijEzmxA/VlhjLfHIWYgC2RfXf2RWwaLRvV3/tXS1zlVxRZqQz8y/1feeiXMO9TyjeD8IiVu6zfyR/JVKvlNdBVj6EsvexgqtfOY3HiZlTFG/4NqeEzND76TrFHIFMKylewnRPe+3UItq/BOAzAGpYsa35ZO2wjDw/K2uSlbq6k2i4a/snD0ApjhFk6KYoUEd0eaxvhe4bUp+9gVBIMsdZqriqF9OUXQ28J+3+n4fHvrtxwOJiyoBcjlKESyEm3aO9jw6VPCm7nv399Izn7oAUWh+uO7b6SvGvAv92mswMkTYS7ucPOVrXxuTr6DNr/ZhZHgZ+QrC8yntEBxrjEfPLhCUYY9tBUAs+Y8TDg7dXkiVGVYCvQwd1Kok1iCRl9dgKaxa35Cgp9nLkxCeCrXe/3wsLlCj8p+09ugSV/yaP2ea5G6G/Mh8IsfuxCyA27/KtRZCFO4ZDjTfnh5vm0lgO8GiwEHD1s9tJnpLJ8vowbcqZbpXYNO9yxub9FTtkoex6tj/wspxQ1rUr68E9S8Hkv+081Tjbkw/3qSM9TX6IeV0rWq3CSeuQPwdu4YbADHZrDwLjVyyZTRWTg0khKNXLzOT3k0Tcc7fAx5TDvBWIVhIG2NA6VLs4AofR3F62cp5rNL+c33UycvPAXgoTYU9mywPyb4zwim5tVxCZAMg=
+  secret_access_key:
+    secure: aoZAXUAb6PmMeNnhkHfd+qUFgMXTgdC7dBM+/dgirK5WCgjxYNxq+tPkpdQMLtxImA4tg0C2K8hRkfwDML0ckPGBjJXkx9z6kb7VWQ85M6wyi9u9VxlE6ry+GwtP4OCa6I3BirigjeJG5UDNbGACXxfTMQxSUiLyh4ji5sMvQkSXLQdPo5cwNMoYxDjUlXXu159mlnv+kQ6zWPzOlGwyCA+EnFrILBUJ/S2BGLTQWuSlPGNZVghIuRXCLaVv2nB4fhmgeSWKTmMZAP4t9rknPR5QV9Zty2key2VL3zZijhmT0o4kVaaLhUoqOJ+05eLwcLt5IyBcCGKXkirc7HYyfLpFIZzCrSqqo0uqLmMQ0dOlujabTMTp67GF2+5nYouiu1Wp9PuLY/EEXP2FL1E5jXXEOtoC1py1Kp333xhVGCEEKRUHa9D4/z8pa1an4avFRKbWgmdt0O51li5EeDJU7yShMbIEc4i0XhG1UHMxwVCRFrSfL9/bu6WQ869SWfeJn0d3kyPqgJg3x41cY81L/EyUx/sJewTW4TA+mz2RGTGQKTBM14d1fNV4ssQh7vOLF+gOoRn8I5sjOKs+OObZCRP7Z2MxKEdQSC2LpuQWZ0WvZd5GddP7nKW+TZ06F41K4vdMeoQk2QgaPHH9kHvwue5qoiRzxk4xUD3Z6x5ung8=
+  region: us-west-2
+  bucket: danielhawton.info
+  local-dir: public
   acl: public_read
+  on:
+    repo: dhawton/resume
+    branch: master
