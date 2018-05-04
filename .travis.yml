@@ -1,0 +1,18 @@
+language: "node_js"
+node_js:
+- 9
+sudo: required
+script:
+- npm install
+- npm run build
+deploy:
+  on:
+    branch: master
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
+  region: $AWS_DEFAULT_REGION
+  bucket: $AWS_BUCKET
+  skip_cleanup: true
+  local_dir: public
+  acl: public_read
